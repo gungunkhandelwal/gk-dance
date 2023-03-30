@@ -1,0 +1,109 @@
+*{
+    box-sizing: content-box;
+}
+body{
+    margin: 0%;
+}
+header{
+    background-color: cadetblue;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+    
+}
+nav{
+    
+    display: flex;
+    background-color: black;
+    
+
+}
+nav a{
+    float: left;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+section,article{
+    text-align: center;
+    padding-top:30px;
+    padding: 50px;
+
+    font-size: large;
+}
+section:nth-child(even){
+    background-color:#ececec;
+
+}
+.container{
+    height:20vh;
+}
+img{
+    padding: 0px;
+    height: 250px;;
+    
+}
+footer{
+    background-color: black;
+    overflow: hidden;
+
+}
+.media{
+      color:black;
+      padding: 5px  15px;
+      text-decoration: none;
+
+      
+}
+.media:hover{
+    color:#196bb7;
+}
+.nav_button:hover{
+    background-color: white;
+    color: black;
+}
+article h2 span ,section h2 span{
+    background: linear-gradient(to right ,cadetblue,black);
+    padding: 15px 50px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+  
+}
+.carousel-cell img{
+    max-width: 100%;
+}
+
+
+footer a{
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.flex-right{
+    margin-left: auto;
+}
+
+@media  screen and (max-width:700px ) {
+    nav {
+        flex-direction: column;
+        padding: 10px 12px;
+    }
+    .flex-right{
+        margin-left: 0;
+    }
+}
+
