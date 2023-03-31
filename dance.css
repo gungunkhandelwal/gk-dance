@@ -49,15 +49,23 @@ footer{
     overflow: hidden;
 
 }
-.media{
-      color:black;
+.handle a{
+      color:#2998cb;
       padding: 5px  15px;
       text-decoration: none;
-
-      
 }
-.media:hover{
-    color:#196bb7;
+.handle a:hover{
+    color:black;
+}
+.handle a i{
+        margin: 5px;
+
+}
+.f-handle {
+    color:#4267B2;  ;
+}
+.i-handle {
+    color:#f10b82;
 }
 .nav_button:hover{
     background-color: white;
